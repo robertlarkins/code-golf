@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeGolf", "CodeGolf\CodeGolf.csproj", "{A4BFE685-FB54-42DC-A8F5-C38E5B6F457B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGolf.Tests", "CodeGolf.Tests\CodeGolf.Tests.csproj", "{1BA4D721-B223-43A1-A95E-9AB0A09DB4DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4BFE685-FB54-42DC-A8F5-C38E5B6F457B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4BFE685-FB54-42DC-A8F5-C38E5B6F457B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4BFE685-FB54-42DC-A8F5-C38E5B6F457B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4BFE685-FB54-42DC-A8F5-C38E5B6F457B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA4D721-B223-43A1-A95E-9AB0A09DB4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA4D721-B223-43A1-A95E-9AB0A09DB4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA4D721-B223-43A1-A95E-9AB0A09DB4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA4D721-B223-43A1-A95E-9AB0A09DB4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A48C9CC3-4B7D-4EA6-A25E-446BBEC2559F}
+	EndGlobalSection
+EndGlobal
