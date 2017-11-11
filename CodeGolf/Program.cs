@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
 using CodeGolf.AsciiArt.FractalAsciiArt;
+using CodeGolf.InterfaceInteraction;
 
 namespace CodeGolf
 {
@@ -9,8 +11,9 @@ namespace CodeGolf
     {
         static void Main(string[] args)
         {
-            var sierpinskiCarpet = new SierpinskiCarpet();
-            sierpinskiCarpet.Run();
+            var tae = new TimingAlphabetEntry();
+
+            tae.A();
         }
     }
 }
