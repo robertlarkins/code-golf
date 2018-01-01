@@ -14,11 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CodeGolf\CodeGolf.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="PrimeNumbers\PrimeFactorisation\" />
+    <ProjectReference Include="..\ExampleAlgorithms\ExampleAlgorithms.csproj" />
   </ItemGroup>
 
 </Project>
